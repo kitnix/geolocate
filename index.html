@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Geolocation </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div id="main-container">
+      <head>
+        <h1>Are you lost?</h1>
+      </head>
+<!--
+      <p>Click the button to get your coordinates.</p> -->
+
+      <button onclick="getLocation()">Find out where you are!</button>
+      <h2 id="location"> </h2>
+      <!-- <p id="demo"></p> -->
+
+
+      <script>
+        // Find the HTML element with the ID of demo and store it in the x variable
+        var x = document.getElementById("location");
+
+        function getLocation() {
+        	// If the browser knows the geolocation
+            if (navigator.geolocation) {
+        		// Get the current position of the browser and then go do the showPosition function
+                navigator.geolocation.getCurrentPosition(showPosition);
+        	// If the browser doesn't know the geolocation
+            } else {
+        		// Let the user know that geolocation is not possible
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        // Show the user where they are
+        function showPosition(position) {
+        	// Place the Latitude and Longitude of the user inside the demo element
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
+  </body>
+</html>

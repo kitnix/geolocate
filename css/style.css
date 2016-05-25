@@ -1,0 +1,67 @@
+html, body{
+  background: url(../img/bkgd.jpg) no-repeat;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #ee7d69;
+}
+body{
+    padding-top: 100px;
+}
+h1{
+  font-size: 3em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+button {
+  font-size: 2em;
+  background: none;
+  border: 2px solid;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+  color: #ee7d69;
+}
+
+button:hover{
+  box-shadow: 2px 2px 2px #de7f6c;
+}
+
+button:active{
+  position: relative;
+  top: 2px;
+  left: 2px;
+  box-shadow: -2px -2px 2px #de7f6c;
+}
+
+button:focus {
+  outline:0;
+}
+
+#main-container{
+  min-width: 365px;
+  background-size: 
+}
+
+
+
+
+
+
+
+/*=+++++++++++++++++++++++++++==============================Media Queries */
+@media (min-width:768px) {
+  html,body{
+      background-size: cover;
+      font-size: 1.25em;
+  }
+
+}
+
+@media (min-width:1500px) {
+ 
+}

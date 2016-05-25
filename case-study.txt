@@ -1,0 +1,18 @@
+Title: 
+	Where am I? Geolocator
+
+Summary: 
+	Geolocator is a simple class project that generates a user's longitude and latitude. 
+
+Tools:  Atom
+	Chrome dev tools
+
+Languages: HTML
+	   CSS
+	   Javascript
+
+This fun project utilizes Javascript functions to geolocate a user and output the longitude and latitude. It utilizes industry standard HTML5 structure and CSS3 styling and media queries. 
+As one of the later projects, I was very pleased with the time it took to complete. I added my own styling outside the course guidelines, adding in the box-shadow styling to give the button a more interactive feel. I would like to go back and add a map that generates based on the coordinates. The first thing I did when I tested the function was copy the coordinates into Google Maps to see how accurate it was. I thought to myself that it would be much easier if the site just displayed the map for me so I didn't have to go through that extra step. This would have great user experience benefits as it would eleminate a barricade that might otherwise deter a someone from continuing on a company site. But for my friends and family, it just has a bigger "Wow" value over just having some random-looking numbers display. 
+
+
+
